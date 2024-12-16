@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/w3.css">
+    <link rel="stylesheet" type="text/css" href="CSS/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Contact Us</title>
+    <style>
+    *{margin: 0px; padding: 0px;}
+	/*menu Bar  start here */
+ 
+#mm{
+    height:55px;
+     width: 60%;
+      border-radius:30% 0% 30% 0% ;}
+      
+  .search_bar{
+        height: 40px;;
+        border-radius: 5px;}
+
+    .search_bar_icon{
+        position: relative;
+        right:32px;
+        font-size: 18px;
+
+    }
+
+    .a_menu{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover{
+        transition-duration: 0.5s;
+        border-bottom: 2px solid orange;
+        padding: 8px;
+        border-radius: 10%;
+        font-weight: bold;
+        color:orange;
+    
+    }
+	
+    .menu{
+        min-height: 60px;
+        line-height: 60px;
+        background-color: rgb(34, 33, 33);
+        color: white;
+    }
+
+   /*menu Bar  end here */
+
+        .icon {
+            width: 40px; /* Adjust the size of the icons */
+            margin-right: 10px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        
+.h_heading{
+    color:rgb(4, 0, 46);
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+<!--navbar-->
+<nav>
+    <div class="menu w3-row  w3-card-4 " >
+        <div class=" under_line w3-col w3-center  s12 l2 m4"><img id="mm"src="img/WhatsApp_Image_2024-11-17_at_8.25.53_PM-removebg-preview.png"alt="logo"></div>
+        <div class=" under_line w3-col w3-center s12 l1 m1"><a class="a_menu" href="index.html">Home</a></div>
+        <div class=" under_line w3-col w3-center s12 l1 m1"><a class="a_menu"  href="Recipes.html">Recipes</a></div>
+        <div class=" under_line w3-col w3-center s12 l1 m1"><a class="a_menu"  href="Cheps.html">Chefs</a></div>
+        <div class=" under_line w3-col w3-center s12 l1 m1"><a class="a_menu"  href="Services.html">Services</a></div>
+        <div class=" under_line w3-col w3-center s12 l1 m1"><a class="a_menu"  href="contact.html">Contact</a></div>
+        <div class="w3-col w3-center s12 l5 m12"> <input class="search_bar" type="search" placeholder="Search here.."> <span class="search_bar_icon">&#128269</span></a>
+        </div>
+    </div>
+</nav>
+<div class=" w3-col w3-container" style="background:gray;">
+    <h1 class=" w3-col  h_heading w3-text-black w3-center w3-xxlarge"><b style="font-weight:bold; color:orange;">Contact Us</b></h1>
+    <div class="w3-row">
+        <!-- Contact Information Section -->
+        <div class="w3-col m6 w3-padding">
+            <h3  class=" h_heading w3-text-white  w3-xlarge">Contact Information</h3>
+            <div class="contact-info w3-row">
+                <div class="w3-col s2">
+                    <img style="border-radius:50%;" class="w3-white " src="https://img.icons8.com/ios-filled/50/000000/address.png" alt="Address Icon" class="icon">
+                </div>
+                <div class="w3-col s10">
+                    <p class=" h_heading w3-text-white  w3-large">Jari Bajar Prayagraj</p>
+                </div>
+            </div>
+            <div class="contact-info w3-row">
+                <div class="w3-col s2">
+                    <img style="border-radius:50%;" class="w3-white" src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Phone Icon" class="icon">
+                </div>
+                <div class="w3-col s10">
+                    <p class=" h_heading w3-text-white  w3-large ">9305570250</p>
+                </div>
+            </div>
+            <div class="contact-info w3-row">
+                <div class="w3-col s2">
+                    <img style="border-radius:50%;" class="w3-white" src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email Icon" class="icon">
+                </div>
+                <div class="w3-col s10">
+                    <p class=" w3-text-white  w3-large" style="font-weight:bold;">kumarmahendra@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form Section -->
+        <div class="w3-col m6 w3-padding">
+            <form>
+                <label for="full-name" class=" h_heading w3-text-white  w3-xlarge">Full Name:</label>
+                <input class="w3-input w3-border" type="text"  name="full-name">
+
+                <label for="email" class=" h_heading w3-text-white  w3-xlarge">Email:</label>
+                <input class="w3-input w3-border" type="email" name="email">
+
+                <label for="message" class=" h_heading w3-text-white  w3-xlarge">Type your message:</label>
+                <textarea class="w3-input w3-border" name="message"></textarea>
+             <button class="w3-button w3-green w3-margin-top" type="submit" class=" h_heading w3-text-white  w3-xlarge">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+   
+<!--footer-->
+<div class="w3-row w3-card-4  w3-black">
+	<div class="w3-row w3-margin">
+		<div class="w3-col l6 m6 s12">
+			<div class="w3-col l3 m3 s6">
+				<img id="mm"src="img/WhatsApp_Image_2024-11-17_at_8.25.53_PM-removebg-preview.png"alt="logo">
+			</div>
+		</div>
+				<div class="w3-col w3-center l6 m6 s12"><a></a>
+		<i class="fab fa-whatsapp w3-gap  w3-circle w3-green" style="font-size:15px; padding: 10px; margin-left:20px; background-color: #25D366; color: white;"></></i>
+		<i class="fab fa-twitter w3-gap w3-circle w3-blue" style="font-size:15px; padding:10px; margin-left:20px; background-color: #25D366; color: white;"></></i>
+		<i class="fab fa-facebook-f w3-circle w3-blue" style="font-size:15px; padding:10px; margin-left:20px; background-color: #25D366; color: white;"></"></i>
+		</div>
+	</div>
+	
+	<div class="w3-row  w3-margin">
+		<div class="w3-col  l3 m3 s6 "><b style="font-weight:bold; color:orange;"> Link</b>
+			<p >Home</p>
+			<p>Contact</p>
+			<p>About us</p>
+			<p>Get started</p>
+		</div>
+			
+		 <div class="w3-col l3 m3 s6"><b style="font-weight:bold; color:orange;">Services</b>
+			<p class="mahi">Home</p>
+			<p>Contact</p>
+			<p>About us</p>
+			<p>Get started</p>
+		 </div>
+		<div class="w3-col l3 m3 s6" class="a_menu"><b style="font-weight:bold; color:orange;">Chefs</b>
+			<p class="mahi">Mahendra</p>
+			<p>Rishabh </p>
+			<p>Suraj sen</p>
+			<p>Ashutosh</p>
+			<p>Ashuman</p>
+		</div>
+		<div class="w3-col l3 m3 s6"><b style="font-weight:bold; color:orange;">Contact</b>
+			<p class="mahi">+919305570250 </p>
+			<p>+916394364836 </p>
+			<p>+918604887174</p>
+			<p>+91630672052</p>
+			<p>+919794173847</p>
+			<p>apnaresto24@gmail.com </p>		
+		</div>
+	</div>
+		<div class="w3-row w3-margin">
+			<div class="w3-col l6 m6 s6 w3-center"><b style="font-weight:bold; color:orange;">Copy Right</b>
+			<p>"Copyright 2023 Apna Restaurant. All rights reserved. Unauthorized use strictly prohibited."</p></div>
+			<div class="w3-col w3-center l6 m6 s6"><b>Privacy policy</b>
+				<p style="font-weight:bold; color:orange;">Design by Mahendra Kumar & Rishabh Bhai Patel</p>
+			</div>
+		
+		</div>
+</div>
+	 
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+*{margin:0px; padding:0px;}
+
+
+  .h_heading{
+            color: white;
+            font-weight: bold;
+            font-variant: small-caps;
+        }
+        
+ .header{
+        min-height: 550px;
+        position: absolute;
+        }
+
+ /*menu Bar  start here */
+
+ #mm{
+    height:55px;
+     width: 60%;
+      border-radius:30% 0% 30% 0% ;}
+      
+      .search_bar{
+        height: 40px;;
+        border-radius: 5px;
+
+    }
+
+    .search_bar_icon{
+        position: relative;
+        right:32px;
+        font-size: 18px;
+
+    }
+
+    .a_menu{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover{
+        transition-duration: 0.5s;
+        border-bottom: 2px solid orange;
+        padding: 8px;
+        border-radius: 10%;
+        font-weight: bold;
+        color:orange;
+    
+    }
+	
+    .menu{
+        min-height: 60px;
+        line-height: 60px;
+        background-color: rgb(34, 33, 33);
+        color: white;
+    }
+
+   /*menu Bar  end here */
+
+
+/--footer--/
+
+body{
+	
+	color:gray;
+	margin-left:30px;
+}
+.top{
+	font-size:40px;
+	font-family:serif;
+	color:#fff;	
+	margin-left:30px;
+	cursor:pointer;
+}
+.m_heading{
+    color:rgb(4, 0, 46);
+    font-variant: small-caps;
+    font-weight: bold;
+	margin:20px;
+}
+
+#menu{
+	margin:20px;
+}
+p{
+	font-weight:bold; 
+	font-family:Book Antiqua;
+	}
+#im{
+	height:400px;
+	width:100%;
+	box-shadow: 0px 0px 5px #C0C0C0;	
+}
+#im:hover {
+	transition: transform 0.5s; 
+	transform: scale(1.05); 
+		}
+#recipes{
+	margin-top:80px;
+	
+}
